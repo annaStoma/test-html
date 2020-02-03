@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<div lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div class="steps">
+            <h1>За 10 лет мы выработали наиболее удобный формат работы:</h1>
+            <div class="slider">
+
+                <div class="menu">
+                    <input type="radio" id="hd-1" name="field" class="hide" />
+
+                    <label for="hd-1" class="label-steps">
+                      <span class="line"></span>
+                      <img src="./img/icons/Untitled-1.png" class="icon-step">
+                     <p class="title"> Этап 1. Замеры</p>
+                      <img src="https://img.icons8.com/material/48/000000/right--v1.png" class="icon-arrow" >
+                    </label>
+
+                    <div class="text">
+                        <span class="line-green"></span> Дизайнер выезжает на ваш объект, делает замеры помещения, выясняет ваши требования к интерьеру и составляет подробное ТЗ
+                    </div>
+
+                    <input type="radio" id="hd-2" name="field" class="hide" />
+                    <label for="hd-2" class="label-steps">
+                      <span class="line"></span>
+                      <img src="./img/icons/Untitled-2.png" class="icon-step">
+                      <p class="title">Этап 2. Планировка</p>
+                      <img src="https://img.icons8.com/material/48/000000/right--v1.png" class="icon-arrow" >
+                    </label>
+                    <div class="text">
+                        <span class="line-green"></span> Разрабатываем 5-6 вариантов планировки вашего помещения и на личной встрече с вами утверждаем наиболее подходящий вариант
+                    </div>
+
+                    <input type="radio" id="hd-3" name="field" class="hide" />
+                    <label for="hd-3" class="label-steps">
+                        <span class="line"></span>
+                      <img src="./img/icons/Untitled-3.png" class="icon-step">
+                     <p class="title"> Этап 3. Разработка дизайн-проекта</p> 
+                     <img src="https://img.icons8.com/material/48/000000/right--v1.png" class="icon-arrow" >
+                    </label>
+
+                    <div class="text">
+                        <span class="line-green"></span> Продумываем концепцию, цветовую гамму и общий стиль интерьера, после чего разрабатываем 2D коллажи или 3D визуализацию
+                    </div>
+
+                    <input type="radio" id="hd-4" name="field" class="hide" />
+                    <label for="hd-4" class="label-steps">
+                        <span class="line"></span>
+                      <img src="./img/icons/Untitled-4.png" class="icon-step">
+                        <p class="title">Этап 4. Расчет материалов</p>
+                        <img src="https://img.icons8.com/material/48/000000/right--v1.png" class="icon-arrow" >
+                        </label>
+
+                    <div class="text">
+                        <span class="line-green"></span> Мы работаем напрямую с поставщиками материалов и мебели – поможем подобрать все необходимое, а также передадим вам рабочие чертежи для строителей, сантехников и др.
+                    </div>
+                    <section class="slide">
+                        <span class="white-line white-line1"></span>
+                        <span class="white-line white-line2"></span>
+                        <div class="transform">
+                            <span class="white-line white-line1 "></span>
+                            <span class="white-line white-line2"></span>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <div class="price">
+            <h1 class="prise-title">Расчет стоимости дизайна интерьера</h1>
+            <div class="price-forms">
+                <p class="prise-titles">1. Выбетите тип помещения</p>
+                <form class="form-1">
+                    <input type="radio" name="building" id="rad-1" hidden>
+                    <label for="rad-1" class="building"> <span class="line"></span>
+                    <img class="type-icons" src="./img/icons/Untitled-5.png">
+                    <p class="type-text">Дом/коттедж</p>
+                </label>
+
+                    <input type="radio" name="building" id="rad-2" hidden>
+                    <label for="rad-2" class="building"> 
+                    <span class="line"></span>
+                    <img  class="type-icons" src="./img/icons/Untitled-6.png">
+                    <p class="type-text">Квартира</p>
+                </label>
+
+                    <input type="radio" name="building" id="rad-3" hidden>
+                    <label for="rad-3" class="building"> 
+                    <span class="line"></span>
+                    <img class="type-icons" src="./img/icons/Untitled-8.png"><p class="type-text">Офис</p></label>
+
+                    <input type="radio" name="building" id="rad-4" hidden>
+                    <label for="rad-4" class="building"> 
+                    <span class="line"></span>
+                    <img class="type-icons" src="./img/icons/Untitled-9.png">
+                   <p class="type-text"> Другое</p> </label>
+                </form>
+
+                <p class="prise-titles">2. Введите размер помещения</p>
+                <form class="form-2">
+                    <input type="text" class="size-input">
+                </form>
+
+                <p class="prise-titles">3. Выберите стиль</p>
+
+                <form class="form-3">
+                    <input type="radio" name="style" id="rad-5" hidden>
+                    <label for="rad-5" class="style"> <span class="line"></span>
+                    <p class="type-text-style">Классика</p>
+                </label>
+
+                    <input type="radio" name="style" id="rad-6" hidden>
+                    <label for="rad-6" class="style"> 
+                    <span class="line"></span>
+                    <p class="type-text-style">Модерн</p>
+                </label>
+
+                    <input type="radio" name="style" id="rad-7" hidden>
+                    <label for="rad-7" class="style"> 
+                    <span class="line"></span>
+                    <p class="type-text-style">Лофт</p></label>
+
+                    <input type="radio" name="style" id="rad-8" hidden>
+                    <label for="rad-8" class="style"> 
+                    <span class="line"></span>
+                   <p class="type-text-style"> Скандинавский</p> </label>
+
+                    <input type="radio" name="style" id="rad-9" hidden>
+                    <label for="rad-9" class="style"> 
+                   <span class="line"></span>
+                  <p class="type-text-style"> ЭКО-стиль </p> </label>
+
+                    <input type="radio" name="style" id="rad-10" hidden>
+                    <label for="rad-10" class="style"> 
+                  <span class="line"></span>
+                 <p class="type-text-style"> Консультация</p> </label>
+                </form>
+
+                <div class="white-lines-2-slide">
+                    <div class="lines-group-1">
+                        <span class="white-line-2 white-line-2-1"></span>
+                        <span class="white-line-2 white-line-2-2"></span>
+
+                        <span class="white-line-2 white-line-2-3"></span>
+                        <span class="white-line-2 white-line-2-4"></span>
+                    </div>
+                    <div class="lines-group-2">
+                        <span class="white-line-2 white-line-2-1"></span>
+                        <span class="white-line-2 white-line-2-2"></span>
+
+                        <span class="white-line-2 white-line-2-3"></span>
+                        <span class="white-line-2 white-line-2-4"></span>
+                    </div>
+                </div>
+
+                <div class="module-border-wrap">
+                    <button class="count-price-butt">Рассчитать стоимость дизайна интерьера<img src="./img/icons8-upward-arrow-64.png" class="arrow-in-circle"></button>
+                    <p class="attent">Вы получите стоимость по выбранному способу связи в течение дня</p>
+                </div>
+             
+            </div>
+    </body>
